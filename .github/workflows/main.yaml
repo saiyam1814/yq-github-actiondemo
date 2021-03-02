@@ -13,4 +13,6 @@ jobs:
       -
         name: merge
         run: >
-          ls /github/workspace/
+          pwd
+        run: >
+          ls
