@@ -13,5 +13,5 @@ jobs:
       -
         name: merge
         run: |
-          pwd
+          cd folder1
           ls
