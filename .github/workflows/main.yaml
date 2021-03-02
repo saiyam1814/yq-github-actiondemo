@@ -11,7 +11,12 @@ jobs:
 
     steps:
       -
+        name: checkout
+        uses: actions/checkout@v2
+      -
         name: merge
         run: |
-          cd folder1
+          pwd
+          cd /home/runner/work/yq-github-actiondemo/yq-github-actiondemo/
           ls
+
