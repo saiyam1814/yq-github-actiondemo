@@ -16,7 +16,5 @@ jobs:
       -
         name: merge
         run: |
-          pwd
           cd /home/runner/work/yq-github-actiondemo/yq-github-actiondemo/
-          ls
-
+          yq m --append pod.yaml folder1/pod2.yaml
