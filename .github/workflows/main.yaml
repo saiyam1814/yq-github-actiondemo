@@ -16,5 +16,5 @@ jobs:
       -
         name: merge
         run: |
-          cd folder1
+          cd folder1/
           ls
